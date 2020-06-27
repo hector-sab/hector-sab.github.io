@@ -1,3 +1,12 @@
+<html>
+    <h2>{{ site.data.navigation.docs_list_title }}</h2>
+    <ul>
+      {% for item in site.data.navigation.docs %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+</html>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hector-sab/hector-sab.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
