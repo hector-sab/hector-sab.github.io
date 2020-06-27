@@ -1,20 +1,4 @@
 ---
-layout: default
+layout: default2
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h2>{{ site.data.navigation.docs_list_title }}</h2>
-    <ul>
-      {% for item in site.data.navigation.docs %}
-        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-      {% endfor %}
-    </ul>
-
-    {{ content }}
-  </body>
-<html>
+{{ content }}
