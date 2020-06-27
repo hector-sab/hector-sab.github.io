@@ -1,0 +1,8 @@
+docs_list_title: Navigation
+docs:
+  - name: Home
+    link: /
+  - name: About
+    link: /about.html
+  - name: Blog
+    link: /blog.html
